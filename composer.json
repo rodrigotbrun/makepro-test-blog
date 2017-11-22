@@ -7,8 +7,16 @@
       "email": "rodrigotbrun@gmail.com"
     }
   ],
-  "minimum-stability": "stable",
-  "require": {},
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "php": ">=7.0",
+    "illuminate/routing": "5.5.x",
+    "illuminate/support": "5.5.x"
+  },
+  "require-dev": {
+    "illuminate/framework": "5.5.x"
+  },
   "autoload": {
     "psr-4": {
       "Blog\\": "./"
