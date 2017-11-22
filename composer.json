@@ -1,0 +1,23 @@
+{
+  "name": "rodrigobrun/makepro-test-blog",
+  "authors": [
+    {
+      "name": "Rodrigo Brun",
+      "email": "rodrigotbrun@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Blog\\": "./"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Blog\\Providers\\BlogServiceProvider"
+      ]
+    }
+  }
+}
